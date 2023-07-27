@@ -18,6 +18,10 @@
   flex: 1;
 }
 
+.login-group{
+  margin: 20px
+}
+
 .right-section{
   display: flex;
   flex-direction: column;
