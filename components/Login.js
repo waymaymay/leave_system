@@ -20,8 +20,9 @@ const Login = () => {
         
         <div className="right-section">
              {/* Content for the right section */}
-            <img src="https://assets.blog.engoo.com/wp-content/uploads/sites/3/2022/09/07094921/dayoff-1024x597.png.webp"
-            width="700vmin" height="400vmin" alt='picture'/>
+
+            <img src='images/login-image.png' width="700vmin" height="700vmin" alt='picture'/>
+
 
         </div>            
     </div>
