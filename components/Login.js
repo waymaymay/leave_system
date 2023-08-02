@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Button from './LoginButton/Button';
+import Leave from './leaveButton/leave';
 // import imgs from './imgs/login-image.png';
 
 const Login = () => {
@@ -15,7 +16,11 @@ const Login = () => {
         <div className="left-section">
             <div className='logintop'>請假登入</div>
             {/* Add login form here */}
-            <Button label="登入" onClick={handleLogin} />
+            <div className='login-group'>
+                <Button label="登入" onClick={handleLogin} />
+                <Leave label="離開" onClick={handleLogin} />
+            </div>
+            
         </div>
         
         <div className="right-section">
